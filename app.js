@@ -64,8 +64,6 @@ function sortearAmigo() {
     //Obter  nome sorteado
     let nomeSorteado = amigos[indiceAleatorio];
 
-    console.log(indiceAleatorio + " - " + nomeSorteado)
-
     // Mostra o resultado no elemento com id 'resultado'
         document.getElementById('resultado').innerHTML = `Amigo sorteado é, ${nomeSorteado}`;
 }
